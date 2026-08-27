@@ -18,3 +18,7 @@
 .DS_Store
 Thumbs.db
 *.tmp
+
+# Obsidian 插件本地状态（自动生成、易变，不纳入版本控制）
+.obsidian/plugins/*/data.json
+.obsidian/plugins/termy/agent-context/obsidian-context.json
