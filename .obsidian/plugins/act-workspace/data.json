@@ -1,0 +1,94 @@
+{
+  "promptDrafts": {},
+  "progressDrafts": {
+    "10-Action/11-Focus-聚焦承诺/2601-第一个12周目标规划/2601-第一个12周目标规划.md": {
+      "text": "",
+      "type": "进展"
+    },
+    "10-Action/12-Active-活跃跟进/2603-王总-Q3策略方案.md": {
+      "text": "",
+      "type": "判断"
+    }
+  },
+  "progressLog": {
+    "heading": "## 进展记录",
+    "format": "heading-time"
+  },
+  "recentProgressLimit": 3,
+  "skillItems": [
+    {
+      "label": "笔记分诊",
+      "skill": "-笔记-笔记分诊"
+    },
+    {
+      "label": "每日开场",
+      "skill": "-日常-每日开场"
+    },
+    {
+      "label": "每日收场",
+      "skill": "-日常-每日收场"
+    }
+  ],
+  "skillCommandTemplate": "cd {{vault}} && claude -- '{{skill}}'",
+  "terminalMode": "terminal",
+  "noteOpenMode": "split",
+  "cycleMode": "monthly",
+  "dvPaths": {
+    "mainCard": "20-Card/知识总览.base#核心卡总览",
+    "bibCard": "20-Card/知识总览.base#阅读卡总览",
+    "indexCard": "20-Card/知识总览.base#索引卡总览",
+    "newCard": "20-Card/知识总览.base#新卡暂存"
+  },
+  "folders": {
+    "inbox": "+",
+    "focusAction": "10-Action/11-Focus-聚焦承诺",
+    "activeAction": "10-Action/12-Active-活跃跟进",
+    "maybeAction": "10-Action/13-Maybe-将来也许",
+    "daily": "30-Time/34-Daily-日志",
+    "weekly": "30-Time/33-Weekly-每周",
+    "cycle": "30-Time/32-12Week-十二周",
+    "vision": "30-Time/31-Vision-愿景",
+    "card": "20-Card",
+    "mainCard": "20-Card/23-MainCard-核心卡",
+    "bibCard": "20-Card/22-BibCard-阅读卡",
+    "indexCard": "20-Card/21-IndexCard-索引卡",
+    "newCard": "20-Card/24-NewCard-新卡暂存",
+    "thought": "+/ACT闪念",
+    "thoughtFile": "+/ACT闪念/每日闪念.md"
+  },
+  "dida": {
+    "enabled": false,
+    "accessToken": "",
+    "lookbackDays": 14,
+    "completedLogTarget": "weekly",
+    "completedLogPathTemplate": "{weeklyFolder}/{weekId}.md",
+    "completedLogHeading": "## 每日记录"
+  },
+  "completedLog": {
+    "target": "weekly",
+    "pathTemplate": "{weeklyFolder}/{weekId}.md",
+    "heading": "## 每日记录",
+    "dailyLookbackDays": 14
+  },
+  "updateRepo": "",
+  "updateToken": "",
+  "hideCompletedNotes": false,
+  "autoStampDoneDate": true,
+  "openOnMobileStartup": true,
+  "openOnDesktopStartup": true,
+  "cardVisibility": {
+    "mainCard": true,
+    "bibCard": true,
+    "indexCard": true,
+    "newCard": false
+  },
+  "cardSearchMode": {},
+  "cardTags": {},
+  "templates": {
+    "taskNote": "",
+    "cycle": "40-storage/42-template-模板/time-12周笔记.md",
+    "weekly": "40-storage/42-template-模板/time-周笔记.md",
+    "daily": "40-storage/42-template-模板/time-日志.md"
+  },
+  "refreshInterval": 30
+}

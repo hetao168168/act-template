@@ -1,0 +1,17 @@
+# === 提交信息规范（Conventional Commits）===
+# 格式：<type>(<scope>): <subject>
+# 类型 type：
+#   feat     新增笔记 / 新内容
+#   fix      修正错误内容
+#   docs     仅文档/说明变更
+#   chore    配置、插件、仓库维护
+#   refactor 重构（不改内容含义）
+#   style    格式调整
+#   perf     性能优化
+# 范围 scope（可选）：笔记 / 插件 / 模板 / 配置 / 同步
+# 示例：
+#   chore(配置): 完善 .gitignore 排除 Obsidian 缓存
+#   feat(笔记): 新增课程笔记
+# 要求：subject 用祈使句、简洁，不超过 50 字
+
+<type>(<scope>): <subject>

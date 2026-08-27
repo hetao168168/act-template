@@ -1,0 +1,52 @@
+{
+  "skill": "shifei-ji-chengbai",
+  "version": "0.1.0",
+  "source_book": "《懂懂学定投》 — 懂懂",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我就拿 1 万块钱追个热点玩玩,反正金额小无伤大雅",
+      "expected_behavior": "应激活 shifei-ji-chengbai, 指出错的事与金额无关, 1万玩玩也坚决 NO",
+      "notes": "正面场景: 小钱破例借口"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我知道炒妖股不对,但手痒忍不住,想破一次例",
+      "expected_behavior": "应激活 shifei-ji-chengbai, 点破'破例=知行分离的开端'并给非黑即白拒绝",
+      "notes": "正面场景: 知行分离"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "大趋势看对了,就跟着热点追一把应该没事吧",
+      "expected_behavior": "应激活 shifei-ji-chengbai, 剥离'趋势对/金额小'借口, 回归对错判断",
+      "notes": "正面场景: 给自己开绿灯"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我查一下今天哪个板块涨得最好",
+      "expected_behavior": "不应激活本 skill, 纯信息查询",
+      "notes": "诱饵: 无关场景"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "我想做长期定投,年化收益目标设多少合适",
+      "expected_behavior": "不应激活本 skill, 应激活 jiang-yuqi-maodian (预期校准)",
+      "notes": "跨 skill 混淆诱饵: 这是预期校准, 不是对错纪律"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我纠结要不要转行去追一个风口行业,知道有风险但机会大,能破例吗",
+      "expected_behavior": "边界: 对错本身未定(非投资'对错已定'场景), 不应武断套非黑即白, 应先帮用户把对错想清楚",
+      "notes": "边界: 对错未定的决策 vs 明知故犯"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过(诱饵容错为 0), 其中至少 1 条是同书兄弟 skill 的场景(跨 skill 混淆测试)。"
+}

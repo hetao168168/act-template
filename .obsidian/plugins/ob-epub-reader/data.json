@@ -1,0 +1,59 @@
+{
+  "legacyGotoLinksFixed": true,
+  "blockRefGotoLinksMigrated": true,
+  "hashGotoLinksMigrated": true,
+  "wikiLinkParamsSlimmed": true,
+  "titleGotoLinksMigrated": true,
+  "settings": {
+    "excerptFolder": "epub-books/anno",
+    "excerptFilename": "《{title}》摘录.md",
+    "sourceLinkFormat": "callout-title",
+    "defaultExcerptHighlightColor": "yellow",
+    "defaultFlow": "scrolled",
+    "fontSize": 20,
+    "readingSidePadding": 12,
+    "readingTheme": "dark",
+    "noteIconSize": 20,
+    "noteIconOffsetX": 2,
+    "noteIconOffsetY": 0,
+    "epubHighlightOpacity": 0.38,
+    "excerptCalloutOpacity": 0.2,
+    "noteTypes": [
+      {
+        "id": "note",
+        "label": "做笔记",
+        "icon": "📝"
+      },
+      {
+        "id": "inspiration",
+        "label": "灵感",
+        "icon": "💡"
+      },
+      {
+        "id": "practice",
+        "label": "准备实践",
+        "icon": "✅"
+      },
+      {
+        "id": "revisit",
+        "label": "反复看",
+        "icon": "🔁"
+      },
+      {
+        "id": "question",
+        "label": "疑问",
+        "icon": "❓"
+      }
+    ],
+    "featureGroups": {
+      "annotationsAndExcerpts": true,
+      "bookshelf": true,
+      "readerCollapsed": false,
+      "annotationsCollapsed": false,
+      "bookshelfCollapsed": false
+    },
+    "autoPasteExcerpt": true,
+    "toolbarPlacement": "bottom",
+    "uiLocale": "zh"
+  }
+}

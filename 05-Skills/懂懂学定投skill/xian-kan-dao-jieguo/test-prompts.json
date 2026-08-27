@@ -1,0 +1,52 @@
+{
+  "skill": "xian-kan-dao-jieguo",
+  "version": "0.1.0",
+  "source_book": "《懂懂学定投》 — 懂懂",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我定投两年了还没怎么赚,最近还亏了,坚持不下去了,想割肉离场",
+      "expected_behavior": "应激活 xian-kan-dao-jieguo, 帮用户把终极结果折算成具体生活画面并加固信仰, 而不是直接给择时建议",
+      "notes": "正面场景: 长期计划想放弃"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我打算开始存养老金,但这事要三十年才见效,感觉看不到头,值得坚持吗",
+      "expected_behavior": "应激活 xian-kan-dao-jieguo, 引导把30年后结果量化成具体生活画面",
+      "notes": "正面场景: 长期目标看不到头"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "怎么才能让自己长期坚持做一件事,而不是三分钟热度",
+      "expected_behavior": "应激活 xian-kan-dao-jieguo, 用'先看到结果'的方法回答",
+      "notes": "正面场景: 长期坚持的方法论"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我查一下沪深300指数现在点位和市盈率是多少",
+      "expected_behavior": "不应激活本 skill, 这是纯信息查询",
+      "notes": "诱饵: 非决策/非坚持类场景"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "我想长期定投,该买指数基金还是买我熟悉的某只股票",
+      "expected_behavior": "不应激活本 skill, 应激活 zhi-xuan-zhishu-jijin (标的筛选)",
+      "notes": "跨 skill 混淆诱饵: 这是'选什么标的', 不是'怎么坚持'"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我这个月想坚持健身打卡,老坚持不下来,怎么办",
+      "expected_behavior": "边界: 健身是短期/即时反馈场景, 不优先用'看到30年后'; 应区分长期先苦后甜目标 vs 短期即时反馈目标",
+      "notes": "边界: 时间尺度判断——本 skill 针对≥3年且先苦后甜的目标"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过(诱饵容错为 0), 其中至少 1 条是同书兄弟 skill 的场景(跨 skill 混淆测试)。"
+}

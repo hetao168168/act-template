@@ -1,0 +1,20 @@
+# Obsidian 工作区缓存（个人且易变，不纳入版本控制）
+.obsidian/workspace.json
+.obsidian/workspace
+
+# Obsidian 索引缓存（可重建，体积大）
+.obsidian/cache
+
+# Obsidian 同步助手备份历史（可重建）
+.obsidian/.obsidian-sync-helper-backup/
+
+# 注：.obsidian/plugins/*/main.js、manifest.json 与 community-plugins.json 故意保留，
+#     便于插件与启用列表在换机/恢复时一键还原。
+
+# Obsidian 回收站
+.trash/
+
+# 系统 / 临时文件
+.DS_Store
+Thumbs.db
+*.tmp

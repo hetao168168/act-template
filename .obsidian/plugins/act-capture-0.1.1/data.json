@@ -1,0 +1,15 @@
+{
+  "storageMode": "daily",
+  "dailyFolder": "30-Time/34-Daily-日志",
+  "dailyFileNameFormat": "YYYY-MM-DD",
+  "dailyTemplatePath": "",
+  "thoughtHeading": "每日闪念",
+  "singleNotePath": "每日闪念.md",
+  "singleEntryHeadingFormat": "YYYYMMDD HH:mm",
+  "projectNotesFolder": "",
+  "selectedProjectNotePath": "",
+  "openOnMobileStartup": true,
+  "openOnDesktopStartup": false,
+  "draftText": "",
+  "draftUpdatedAt": 0
+}

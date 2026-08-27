@@ -1,0 +1,21 @@
+{
+  "cssTheme": "Baseline",
+  "accentColor": "#0f0722",
+  "enabledCssSnippets": [
+    "css左侧边栏",
+    "nick-milo-pro-callouts",
+    "书签样式",
+    "书签样式-kivenbig",
+    "callouts-nikmilo"
+  ],
+  "theme": "moonstone",
+  "baseFontSize": 17,
+  "textFontFamily": "宋体",
+  "nativeMenus": true,
+  "showViewHeader": true,
+  "interfaceFontFamily": "黑体",
+  "showRibbon": true,
+  "baseFontSizeAction": true,
+  "translucency": false,
+  "monospaceFontFamily": "Arial Black"
+}

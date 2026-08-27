@@ -1,0 +1,52 @@
+{
+  "skill": "zhi-xuan-zhishu-jijin",
+  "version": "0.1.0",
+  "source_book": "《懂懂学定投》 — 懂懂",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我想做长期定投,纠结该买我熟悉的某只股票,还是买指数基金",
+      "expected_behavior": "应激活 zhi-xuan-zhishu-jijin, 用'净化功能/半衰期/永远创新高'三标准筛选, 结论收敛到指数基金",
+      "notes": "正面场景: 选标的"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "养老配置买什么好?纳指、德国、日经这些全球指数该怎么选,还是买房更稳",
+      "expected_behavior": "应激活 zhi-xuan-zhishu-jijin, 筛掉房产(无现金流), 收敛到指数",
+      "notes": "正面场景: 资产配置取舍"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "黄金一直涨,我该不该配点黄金对冲,还是坚持定投指数",
+      "expected_behavior": "应激活 zhi-xuan-zhishu-jijin, 引用段永平标准(无现金流/不创造价值)给 NO 或明确边界",
+      "notes": "正面场景: 贵金属 vs 指数"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我写一段 A 股板块资金流向的分析报告",
+      "expected_behavior": "不应激活本 skill, 这是与标的筛选无关的数据分析任务",
+      "notes": "诱饵: 无关场景"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "我定投指数两年了,止盈线该设 20% 还是 50%,要不要套网格",
+      "expected_behavior": "不应激活本 skill, 应激活 guimo-jueding-shu (参数/术)",
+      "notes": "跨 skill 混淆诱饵: 标的已定, 这是'参数怎么定', 不是'选什么标的'"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "朋友说有一只好股票,业绩很好,长期持有肯定能翻倍,我要不要买来长期拿",
+      "expected_behavior": "边界: 个股基本面再好, 仍按'会不会退市/半衰期'标准判淘汰; 但需先确认用户是'长期投资'还是'就是想买这股'的投机",
+      "notes": "边界: 熟悉/好公司的个股 vs 指数——即使'好'个股也过不了'不退市'这一关"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过(诱饵容错为 0), 其中至少 1 条是同书兄弟 skill 的场景(跨 skill 混淆测试)。"
+}

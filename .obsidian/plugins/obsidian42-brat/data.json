@@ -1,0 +1,29 @@
+{
+  "pluginList": [
+    "ZyphrZero/Obsidian-Termy",
+    "YishenTu/claudian"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "ZyphrZero/Obsidian-Termy",
+      "version": ""
+    },
+    {
+      "repo": "YishenTu/claudian",
+      "version": ""
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": false,
+  "updateThemesAtStartup": false,
+  "enableAfterInstall": false,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "globalTokenName": "",
+  "personalAccessToken": "",
+  "selectLatestPluginVersionByDefault": false,
+  "allowIncompatiblePlugins": false
+}
