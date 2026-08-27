@@ -1,37 +1,12 @@
 {
   "schemaVersion": 1,
   "source": "termy",
-  "updatedAt": "2026-08-27T16:26:32.032Z",
+  "updatedAt": "2026-08-27T16:39:10.273Z",
   "vaultRoot": "E:/何涛的知识库/ACT模板_2.1_260730",
   "workspaceFolders": [
     "E:/何涛的知识库/ACT模板_2.1_260730"
   ],
-  "activeFile": {
-    "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\20-Card\\22-BibCard-阅读卡\\B002-十二周做完一年事.md",
-    "vaultPath": "20-Card/22-BibCard-阅读卡/B002-十二周做完一年事.md",
-    "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/20-Card/22-BibCard-%E9%98%85%E8%AF%BB%E5%8D%A1/B002-%E5%8D%81%E4%BA%8C%E5%91%A8%E5%81%9A%E5%AE%8C%E4%B8%80%E5%B9%B4%E4%BA%8B.md",
-    "hasFocus": true
-  },
-  "openFiles": [
-    {
-      "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\20-Card\\22-BibCard-阅读卡\\B002-十二周做完一年事.md",
-      "vaultPath": "20-Card/22-BibCard-阅读卡/B002-十二周做完一年事.md",
-      "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/20-Card/22-BibCard-%E9%98%85%E8%AF%BB%E5%8D%A1/B002-%E5%8D%81%E4%BA%8C%E5%91%A8%E5%81%9A%E5%AE%8C%E4%B8%80%E5%B9%B4%E4%BA%8B.md",
-      "isActive": true
-    }
-  ],
-  "selection": {
-    "text": "",
-    "isEmpty": true,
-    "from": {
-      "line": 14,
-      "ch": 0,
-      "offset": 181
-    },
-    "to": {
-      "line": 14,
-      "ch": 0,
-      "offset": 181
-    }
-  }
+  "activeFile": null,
+  "openFiles": [],
+  "selection": null
 }
