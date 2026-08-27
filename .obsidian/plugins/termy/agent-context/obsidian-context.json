@@ -1,24 +1,17 @@
 {
   "schemaVersion": 1,
   "source": "termy",
-  "updatedAt": "2026-08-27T17:08:50.849Z",
+  "updatedAt": "2026-08-27T17:21:45.608Z",
   "vaultRoot": "E:/何涛的知识库/ACT模板_2.1_260730",
   "workspaceFolders": [
     "E:/何涛的知识库/ACT模板_2.1_260730"
   ],
   "activeFile": {
-    "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\A股资金流\\日报\\2026-08-27 A股板块资金流.md",
-    "vaultPath": "A股资金流/日报/2026-08-27 A股板块资金流.md",
-    "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/A%E8%82%A1%E8%B5%84%E9%87%91%E6%B5%81/%E6%97%A5%E6%8A%A5/2026-08-27%20A%E8%82%A1%E6%9D%BF%E5%9D%97%E8%B5%84%E9%87%91%E6%B5%81.md",
+    "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\03-资源\\2025年中国居民膳食指南 (中国营养学会).pdf",
+    "vaultPath": "03-资源/2025年中国居民膳食指南 (中国营养学会).pdf",
+    "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/03-%E8%B5%84%E6%BA%90/2025%E5%B9%B4%E4%B8%AD%E5%9B%BD%E5%B1%85%E6%B0%91%E8%86%B3%E9%A3%9F%E6%8C%87%E5%8D%97%20(%E4%B8%AD%E5%9B%BD%E8%90%A5%E5%85%BB%E5%AD%A6%E4%BC%9A).pdf",
     "hasFocus": false
   },
-  "openFiles": [
-    {
-      "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\A股资金流\\日报\\2026-08-27 A股板块资金流.md",
-      "vaultPath": "A股资金流/日报/2026-08-27 A股板块资金流.md",
-      "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/A%E8%82%A1%E8%B5%84%E9%87%91%E6%B5%81/%E6%97%A5%E6%8A%A5/2026-08-27%20A%E8%82%A1%E6%9D%BF%E5%9D%97%E8%B5%84%E9%87%91%E6%B5%81.md",
-      "isActive": true
-    }
-  ],
+  "openFiles": [],
   "selection": null
 }
