@@ -1,5 +1,10 @@
 {
-  "promptDrafts": {},
+  "promptDrafts": {
+    "action-task": {
+      "title": "8月29日任务",
+      "body": "一、用ai确定公共课选题\n二、公考ai测试\n三、视频AI研究一下\n四、艾莉财经数据读取"
+    }
+  },
   "progressDrafts": {
     "10-Action/11-Focus-聚焦承诺/2601-第一个12周目标规划/2601-第一个12周目标规划.md": {
       "text": "",
