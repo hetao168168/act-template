@@ -1,24 +1,12 @@
 {
   "schemaVersion": 1,
   "source": "termy",
-  "updatedAt": "2026-08-28T13:53:38.961Z",
+  "updatedAt": "2026-08-28T14:35:54.730Z",
   "vaultRoot": "E:/何涛的知识库/ACT模板_2.1_260730",
   "workspaceFolders": [
     "E:/何涛的知识库/ACT模板_2.1_260730"
   ],
-  "activeFile": {
-    "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\微信公众号文章\\2026-03-18 - 《懂懂学定投》.md",
-    "vaultPath": "微信公众号文章/2026-03-18 - 《懂懂学定投》.md",
-    "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E6%96%87%E7%AB%A0/2026-03-18%20-%20%E3%80%8A%E6%87%82%E6%87%82%E5%AD%A6%E5%AE%9A%E6%8A%95%E3%80%8B.md",
-    "hasFocus": false
-  },
-  "openFiles": [
-    {
-      "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\微信公众号文章\\2026-03-18 - 《懂懂学定投》.md",
-      "vaultPath": "微信公众号文章/2026-03-18 - 《懂懂学定投》.md",
-      "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E6%96%87%E7%AB%A0/2026-03-18%20-%20%E3%80%8A%E6%87%82%E6%87%82%E5%AD%A6%E5%AE%9A%E6%8A%95%E3%80%8B.md",
-      "isActive": true
-    }
-  ],
+  "activeFile": null,
+  "openFiles": [],
   "selection": null
 }
