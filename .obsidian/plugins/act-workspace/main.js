@@ -3342,14 +3342,21 @@ AI \u5907\u6CE8:
         if (/^\s*#{1,6}\s+/.test(line)) return line;
         return `- [ ] ! ${line.trim()}`;
       }).join("\n");
-      const fmEnd = content.indexOf("---", content.indexOf("---") + 3);
-      if (fmEnd !== -1) {
-        const insertAt = content.indexOf("\n", fmEnd) + 1;
-        content = content.slice(0, insertAt) + `
+      // 2026-08-28 patch v2: 必须把 body 插在 ## 下一步行动 heading **之后**，否则 parseMarkedActions 扫不到
+      const headingMatch = content.match(/^##\s+(?:下一步行动|下步行动|行动清单)\s*$/m);
+      if (headingMatch) {
+        const insertAt = headingMatch.index + headingMatch[0].length;
+        content = content.slice(0, insertAt) + `\n${wrapped}\n` + content.slice(insertAt);
+      } else {
+        const fmEnd = content.indexOf("---", content.indexOf("---") + 3);
+        if (fmEnd !== -1) {
+          const insertAt = content.indexOf("\n", fmEnd) + 1;
+          content = content.slice(0, insertAt) + `
 ${wrapped}
 ` + content.slice(insertAt);
-      } else {
-        content = wrapped + "\n\n" + content;
+        } else {
+          content = wrapped + "\n\n" + content;
+        }
       }
     }
     return content;
