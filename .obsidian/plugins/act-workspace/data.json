@@ -1,10 +1,5 @@
 {
-  "promptDrafts": {
-    "action-task": {
-      "title": "8月29日任务",
-      "body": "一、用ai确定公共课选题\n二、公考ai测试\n三、视频AI研究一下\n四、艾莉财经数据读取"
-    }
-  },
+  "promptDrafts": {},
   "progressDrafts": {
     "10-Action/11-Focus-聚焦承诺/2601-第一个12周目标规划/2601-第一个12周目标规划.md": {
       "text": "",
@@ -13,13 +8,17 @@
     "10-Action/12-Active-活跃跟进/2603-王总-Q3策略方案.md": {
       "text": "",
       "type": "判断"
+    },
+    "10-Action/11-Focus-聚焦承诺/8月29日任务.md": {
+      "text": "",
+      "type": "进展"
     }
   },
   "progressLog": {
     "heading": "## 进展记录",
     "format": "heading-time"
   },
-  "recentProgressLimit": 3,
+  "recentProgressLimit": 14,
   "skillItems": [
     {
       "label": "笔记分诊",
