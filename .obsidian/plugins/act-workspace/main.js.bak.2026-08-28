@@ -363,7 +363,7 @@ function findTaskSection(content, matchHeading) {
   return null;
 }
 function getNextActionSection(content) {
-  return findTaskSection(content, (heading) => /^(?:下一步行动|下步行动|行动清单)$/.test(heading));
+  return findTaskSection(content, (heading) => heading === "\u4E0B\u6B65\u884C\u52A8" || heading === "\u4E0B\u4E00\u6B65\u884C\u52A8" || heading === "\u884C\u52A8\u6E05\u5355");
 }
 function extractSectionBlock(content, heading) {
   return extractTaskSection(content, (title) => title === heading);
@@ -3334,22 +3334,14 @@ AI \u5907\u6CE8:
       content = content.replace(/created:[ \t]*/, `created: ${created}`);
     }
     if (noteBody) {
-      // 2026-08-28 patch: 自动包装 body 为 `- [ ] ! 任务名` 格式，避免空任务项触发"全部完成"
-      const wrapped = noteBody.split("\n").map((line) => {
-        if (!line.trim()) return line;
-        if (/^\s*[-*]\s*\[/.test(line)) return line;
-        if (/^\s*[-*]\s+[!！]/.test(line)) return line;
-        if (/^\s*#{1,6}\s+/.test(line)) return line;
-        return `- [ ] ! ${line.trim()}`;
-      }).join("\n");
       const fmEnd = content.indexOf("---", content.indexOf("---") + 3);
       if (fmEnd !== -1) {
         const insertAt = content.indexOf("\n", fmEnd) + 1;
         content = content.slice(0, insertAt) + `
-${wrapped}
+${noteBody}
 ` + content.slice(insertAt);
       } else {
-        content = wrapped + "\n\n" + content;
+        content = noteBody + "\n\n" + content;
       }
     }
     return content;
