@@ -1,12 +1,37 @@
 {
   "schemaVersion": 1,
   "source": "termy",
-  "updatedAt": "2026-08-29T11:42:10.668Z",
+  "updatedAt": "2026-08-29T12:43:13.725Z",
   "vaultRoot": "E:/何涛的知识库/ACT模板_2.1_260730",
   "workspaceFolders": [
     "E:/何涛的知识库/ACT模板_2.1_260730"
   ],
-  "activeFile": null,
-  "openFiles": [],
-  "selection": null
+  "activeFile": {
+    "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\00-灵感库\\红军与茅台酒的故事.md",
+    "vaultPath": "00-灵感库/红军与茅台酒的故事.md",
+    "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/00-%E7%81%B5%E6%84%9F%E5%BA%93/%E7%BA%A2%E5%86%9B%E4%B8%8E%E8%8C%85%E5%8F%B0%E9%85%92%E7%9A%84%E6%95%85%E4%BA%8B.md",
+    "hasFocus": false
+  },
+  "openFiles": [
+    {
+      "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\00-灵感库\\红军与茅台酒的故事.md",
+      "vaultPath": "00-灵感库/红军与茅台酒的故事.md",
+      "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/00-%E7%81%B5%E6%84%9F%E5%BA%93/%E7%BA%A2%E5%86%9B%E4%B8%8E%E8%8C%85%E5%8F%B0%E9%85%92%E7%9A%84%E6%95%85%E4%BA%8B.md",
+      "isActive": true
+    }
+  ],
+  "selection": {
+    "text": "",
+    "isEmpty": true,
+    "from": {
+      "line": 11,
+      "ch": 0,
+      "offset": 298
+    },
+    "to": {
+      "line": 11,
+      "ch": 0,
+      "offset": 298
+    }
+  }
 }
