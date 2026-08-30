@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "termy",
-  "updatedAt": "2026-08-29T12:43:13.725Z",
+  "updatedAt": "2026-08-30T06:00:41.663Z",
   "vaultRoot": "E:/何涛的知识库/ACT模板_2.1_260730",
   "workspaceFolders": [
     "E:/何涛的知识库/ACT模板_2.1_260730"
@@ -20,18 +20,5 @@
       "isActive": true
     }
   ],
-  "selection": {
-    "text": "",
-    "isEmpty": true,
-    "from": {
-      "line": 11,
-      "ch": 0,
-      "offset": 298
-    },
-    "to": {
-      "line": 11,
-      "ch": 0,
-      "offset": 298
-    }
-  }
+  "selection": null
 }
