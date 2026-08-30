@@ -1,24 +1,17 @@
 {
   "schemaVersion": 1,
   "source": "termy",
-  "updatedAt": "2026-08-30T14:26:45.382Z",
+  "updatedAt": "2026-08-30T14:27:55.336Z",
   "vaultRoot": "E:/何涛的知识库/ACT模板_2.1_260730",
   "workspaceFolders": [
     "E:/何涛的知识库/ACT模板_2.1_260730"
   ],
   "activeFile": {
-    "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\A股资金流\\日报\\2026-08-28 A股板块资金流.md",
-    "vaultPath": "A股资金流/日报/2026-08-28 A股板块资金流.md",
-    "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/A%E8%82%A1%E8%B5%84%E9%87%91%E6%B5%81/%E6%97%A5%E6%8A%A5/2026-08-28%20A%E8%82%A1%E6%9D%BF%E5%9D%97%E8%B5%84%E9%87%91%E6%B5%81.md",
+    "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\03-资源\\王沪宁：《政治的人生》.pdf",
+    "vaultPath": "03-资源/王沪宁：《政治的人生》.pdf",
+    "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/03-%E8%B5%84%E6%BA%90/%E7%8E%8B%E6%B2%AA%E5%AE%81%EF%BC%9A%E3%80%8A%E6%94%BF%E6%B2%BB%E7%9A%84%E4%BA%BA%E7%94%9F%E3%80%8B.pdf",
     "hasFocus": false
   },
-  "openFiles": [
-    {
-      "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\A股资金流\\日报\\2026-08-28 A股板块资金流.md",
-      "vaultPath": "A股资金流/日报/2026-08-28 A股板块资金流.md",
-      "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/A%E8%82%A1%E8%B5%84%E9%87%91%E6%B5%81/%E6%97%A5%E6%8A%A5/2026-08-28%20A%E8%82%A1%E6%9D%BF%E5%9D%97%E8%B5%84%E9%87%91%E6%B5%81.md",
-      "isActive": true
-    }
-  ],
+  "openFiles": [],
   "selection": null
 }
