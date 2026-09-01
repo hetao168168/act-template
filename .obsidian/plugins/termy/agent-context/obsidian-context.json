@@ -1,37 +1,24 @@
 {
   "schemaVersion": 1,
   "source": "termy",
-  "updatedAt": "2026-09-01T13:21:41.895Z",
+  "updatedAt": "2026-09-01T13:28:17.893Z",
   "vaultRoot": "E:/何涛的知识库/ACT模板_2.1_260730",
   "workspaceFolders": [
     "E:/何涛的知识库/ACT模板_2.1_260730"
   ],
   "activeFile": {
-    "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\00-灵感库\\中小学教育惩戒规则（试行）_教育部_中国政府网.md",
-    "vaultPath": "00-灵感库/中小学教育惩戒规则（试行）_教育部_中国政府网.md",
-    "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/00-%E7%81%B5%E6%84%9F%E5%BA%93/%E4%B8%AD%E5%B0%8F%E5%AD%A6%E6%95%99%E8%82%B2%E6%83%A9%E6%88%92%E8%A7%84%E5%88%99%EF%BC%88%E8%AF%95%E8%A1%8C%EF%BC%89_%E6%95%99%E8%82%B2%E9%83%A8_%E4%B8%AD%E5%9B%BD%E6%94%BF%E5%BA%9C%E7%BD%91.md",
-    "hasFocus": true
+    "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\03-资源\\政治的逻辑.pdf",
+    "vaultPath": "03-资源/政治的逻辑.pdf",
+    "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/03-%E8%B5%84%E6%BA%90/%E6%94%BF%E6%B2%BB%E7%9A%84%E9%80%BB%E8%BE%91.pdf",
+    "hasFocus": false
   },
   "openFiles": [
     {
       "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\00-灵感库\\中小学教育惩戒规则（试行）_教育部_中国政府网.md",
       "vaultPath": "00-灵感库/中小学教育惩戒规则（试行）_教育部_中国政府网.md",
       "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/00-%E7%81%B5%E6%84%9F%E5%BA%93/%E4%B8%AD%E5%B0%8F%E5%AD%A6%E6%95%99%E8%82%B2%E6%83%A9%E6%88%92%E8%A7%84%E5%88%99%EF%BC%88%E8%AF%95%E8%A1%8C%EF%BC%89_%E6%95%99%E8%82%B2%E9%83%A8_%E4%B8%AD%E5%9B%BD%E6%94%BF%E5%BA%9C%E7%BD%91.md",
-      "isActive": true
+      "isActive": false
     }
   ],
-  "selection": {
-    "text": "",
-    "isEmpty": true,
-    "from": {
-      "line": 0,
-      "ch": 0,
-      "offset": 0
-    },
-    "to": {
-      "line": 0,
-      "ch": 0,
-      "offset": 0
-    }
-  }
+  "selection": null
 }
