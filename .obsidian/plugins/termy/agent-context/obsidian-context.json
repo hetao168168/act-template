@@ -1,24 +1,37 @@
 {
   "schemaVersion": 1,
   "source": "termy",
-  "updatedAt": "2026-09-08T12:28:18.053Z",
+  "updatedAt": "2026-09-14T12:55:09.326Z",
   "vaultRoot": "E:/何涛的知识库/ACT模板_2.1_260730",
   "workspaceFolders": [
     "E:/何涛的知识库/ACT模板_2.1_260730"
   ],
   "activeFile": {
-    "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\00-灵感库\\9月1号随想.md",
-    "vaultPath": "00-灵感库/9月1号随想.md",
-    "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/00-%E7%81%B5%E6%84%9F%E5%BA%93/9%E6%9C%881%E5%8F%B7%E9%9A%8F%E6%83%B3.md",
-    "hasFocus": false
+    "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\05-Skills\\懂懂学定投skill\\README.md",
+    "vaultPath": "05-Skills/懂懂学定投skill/README.md",
+    "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/05-Skills/%E6%87%82%E6%87%82%E5%AD%A6%E5%AE%9A%E6%8A%95skill/README.md",
+    "hasFocus": true
   },
   "openFiles": [
     {
-      "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\00-灵感库\\9月1号随想.md",
-      "vaultPath": "00-灵感库/9月1号随想.md",
-      "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/00-%E7%81%B5%E6%84%9F%E5%BA%93/9%E6%9C%881%E5%8F%B7%E9%9A%8F%E6%83%B3.md",
+      "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\05-Skills\\懂懂学定投skill\\README.md",
+      "vaultPath": "05-Skills/懂懂学定投skill/README.md",
+      "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/05-Skills/%E6%87%82%E6%87%82%E5%AD%A6%E5%AE%9A%E6%8A%95skill/README.md",
       "isActive": true
     }
   ],
-  "selection": null
+  "selection": {
+    "text": "",
+    "isEmpty": true,
+    "from": {
+      "line": 6,
+      "ch": 0,
+      "offset": 136
+    },
+    "to": {
+      "line": 6,
+      "ch": 0,
+      "offset": 136
+    }
+  }
 }
