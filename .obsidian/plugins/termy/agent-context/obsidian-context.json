@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "termy",
-  "updatedAt": "2026-10-11T12:52:55.011Z",
+  "updatedAt": "2026-10-11T13:02:22.987Z",
   "vaultRoot": "E:/何涛的知识库/ACT模板_2.1_260730",
   "workspaceFolders": [
     "E:/何涛的知识库/ACT模板_2.1_260730"
@@ -18,20 +18,26 @@
       "vaultPath": "30-Time/34-Daily-日志/2026-10-11（日）.md",
       "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/30-Time/34-Daily-%E6%97%A5%E5%BF%97/2026-10-11%EF%BC%88%E6%97%A5%EF%BC%89.md",
       "isActive": true
+    },
+    {
+      "filePath": "E:\\何涛的知识库\\ACT模板_2.1_260730\\epub-books\\anno\\《资治通鉴》摘录.md",
+      "vaultPath": "epub-books/anno/《资治通鉴》摘录.md",
+      "fileUrl": "file:///E:/%E4%BD%95%E6%B6%9B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/ACT%E6%A8%A1%E6%9D%BF_2.1_260730/epub-books/anno/%E3%80%8A%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E3%80%8B%E6%91%98%E5%BD%95.md",
+      "isActive": false
     }
   ],
   "selection": {
     "text": "",
     "isEmpty": true,
     "from": {
-      "line": 7,
-      "ch": 0,
-      "offset": 63
+      "line": 17,
+      "ch": 38,
+      "offset": 304
     },
     "to": {
-      "line": 7,
-      "ch": 0,
-      "offset": 63
+      "line": 17,
+      "ch": 38,
+      "offset": 304
     }
   }
 }
